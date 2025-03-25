@@ -1,10 +1,10 @@
-::selection { background-color: aqua;}
+:selection { background-color: aqua;}
 h1 {
   color:blue;
   text-decoration: wavy;
   size: 4em;
 }
-.lato-bold-italic {
+h1.lato-bold-italic {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -13,7 +13,7 @@ nav {
   color: blueviolet;
   padding: 10px;
 }
-.lato-normal {
+nav.lato-normal {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -27,7 +27,7 @@ body{
     font-size: 16px;
     line-height: 1.6;
 }
-    .lato-regular-italic {
+body.lato-regular-italic {
         font-family: "Lato", sans-serif;
         font-weight: 400;
         font-style: italic;
@@ -36,7 +36,7 @@ footer {
   color: blue;
   padding: 10px;}
 
-  .lato-bold-normal {
+footer.lato-bold-normal {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
